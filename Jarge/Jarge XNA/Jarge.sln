@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JargeEngine", "Jarge\JargeEngine.csproj", "{C2DDA66A-72F1-47A6-A7D9-738F5F11FE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abduction", "Abduction\Abduction.csproj", "{96D14B18-BB7D-4759-B5CF-EAF737978509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2DDA66A-72F1-47A6-A7D9-738F5F11FE44}.Debug|x86.ActiveCfg = Debug|x86
+		{C2DDA66A-72F1-47A6-A7D9-738F5F11FE44}.Debug|x86.Build.0 = Debug|x86
+		{C2DDA66A-72F1-47A6-A7D9-738F5F11FE44}.Release|x86.ActiveCfg = Release|x86
+		{C2DDA66A-72F1-47A6-A7D9-738F5F11FE44}.Release|x86.Build.0 = Release|x86
+		{96D14B18-BB7D-4759-B5CF-EAF737978509}.Debug|x86.ActiveCfg = Debug|x86
+		{96D14B18-BB7D-4759-B5CF-EAF737978509}.Debug|x86.Build.0 = Debug|x86
+		{96D14B18-BB7D-4759-B5CF-EAF737978509}.Release|x86.ActiveCfg = Release|x86
+		{96D14B18-BB7D-4759-B5CF-EAF737978509}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+<level width="800" height="600">
+  <scenery>
+    <tree id="0" x="144" y="400" angle="30" />
+    <tree id="1" x="352" y="176" angle="135" />
+    <floor id="2" x="32" y="464" angle="30" />
+    <floor id="3" x="144" y="528" angle="0" />
+    <floor id="4" x="32" y="352" angle="90" />
+  </scenery>
+</level>
