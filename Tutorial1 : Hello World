@@ -5,5 +5,59 @@ Step 1:
     
 Step 2:
       Right click on your solution, and add an existing project. Add the project inside the "Jarge XNA" folder. Then, right
-      click on referances, "add referance", and add a referance to the Jarge project in the solution.
+      click on referances, "add referance", and add a referance to the Jarge project in the solution. This should set up our
+      solution for Jarge Development.
+      
+Step 3:
+      Rewrite you Program.cs to resemble to the following:
+            
+            #region Using Statements
+            using System;
+            using JargeEngine;
+            #endregion
+            
+            namespace HelloWorld
+            {
+                public class Game1 : Engine
+                {
+                    public Game1()
+                        : base("Thing foo")
+                    {
+                        SetScene(new GameScene());
+                    }
+                }
+            }
+      
+      This will create the Engine, or base, for our Jarge Game.
+      
+Step 4:
+      Create a new file, Call it "GameScene.cs", and add it to your project.
+      
+      Edit our file to resemble this:
+            
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text;
+            using JargeEngine;
+            using JargeEngine.Graphics;
+            
+            namespace HelloWorld
+            {
+                class GameScene : Scene
+                {
+                    public GameScene()
+                    {
+                        
+                    }
+                }
+            }
+            
+Step 5:
+      In the base function ( public GameScene() ), add the following:
+      
+            AddGraphic(new Text("Hello, World!"));
+            
+      On running the program, you have successfully printed hello world in Jarge!
+
       
