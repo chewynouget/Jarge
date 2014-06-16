@@ -1,2 +1,9 @@
 This is Tutorial for Jarge XNA version, to get your game up and running and showing "Hello, World!".
 
+Step 1:
+      Open a new project in your IDE, in my case Visual Studio, and create a new C# project.
+    
+Step 2:
+      Right click on your solution, and add an existing project. Add the project inside the "Jarge XNA" folder. Then, right
+      click on referances, "add referance", and add a referance to the Jarge project in the solution.
+      
